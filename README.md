@@ -11,6 +11,23 @@ Bu depo; elektromanyetik teori, anten tasarımı ve bu teknolojilerin **Elektron
 
 ---
 
+## ⚡ Anten Nedir ve Nasıl Çalışır? (Öz Şamil)
+
+En basit tanımıyla **anten**, bir devredeki iletilen akımı (kılavuzlanmış dalga), boşlukta yayılan elektromanyetik dalgaya (serbest uzay dalgası) dönüştüren bir **geçiş yapısı (transducer)**'dır. Alıcı olarak çalıştığında ise bu işlemin tam tersini gerçekleştirir.
+
+### 🧠 Temel Mekanizma
+1.  **Akımdan Dalga Oluşumu:** Bir iletken üzerindeki yükler ivmelendiğinde (AC akım), Maxwell denklemlerine (Faraday ve Ampere yasaları) göre birbirini tetikleyen elektrik ($\mathbf{E}$) ve manyetik ($\mathbf{H}$) alanlar oluşur.
+2.  **Karşılıklılık (Reciprocity):** Bir antenin verici olarak sahip olduğu tüm özellikler (kazanç, patern, polarizasyon), alıcı olarak çalıştığında da aynen geçerlidir.
+3.  **Empedans Uyumu:** Enerjinin antenden havaya atılabilmesi için hattın empedansı ($50 \Omega$) ile antenin empedansının mükemmel bir uyum içinde olması gerekir. Aksi takdirde enerji geri yansır (VSWR).
+
+### 🛡️ Elektronik Harp'te Antenin Rolü
+Elektronik Harp sahasında anten sadece bir sinyal iletici değil; bir **stratejik silahtır**:
+- **Göz:** Düşman radarlarının yerini ve türünü tespit eder (ELINT).
+- **Kalkan:** Dost birliklerin sinyallerini düşman karıştırmasından korur (LPI Antenler).
+- **Kılıç:** Enerjiyi tek bir noktaya odaklayarak düşman sensörlerini kör eder (Jamming).
+
+---
+
 ## 🏛️ Mimari Yapı ve Müfredat
 
 Proje, bir Elektronik Harp sisteminin yaşam döngüsüne ve anten mühendisliğinin temel direklerine uygun olarak 4 ana modüle ayrılmıştır:
