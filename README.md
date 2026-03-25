@@ -4,7 +4,10 @@
 
 > **"Elektromanyetik spektrumda üstünlük, modern harp sahasının anahtarıdır."**
 
-Bu depo; elektromanyetik teori, anten tasarımı ve bu teknolojilerin **Elektronik Harp (Electronic Warfare - EW)** sahasındaki stratejik kullanım senaryolarını kapsayan, akademik düzeyde yapılandırılmış profesyonel bir teknik kütüphanedir. Temel hedef; RF spektrumunda durumsal farkındalık ve spektral üstünlük sağlamak için gerekli olan teorik temelleri ve pratik uygulama metodolojilerini sistematik bir şekilde sunmaktır.
+Bu depo; elektromanyetik teori, anten tasarımı ve bu teknolojilerin **Elektronik Harp (Electronic Warfare - EW)** sahasındaki stratejik kullanım senaryolarını kapsayan, akademik düzeyde yapılandırılmış profesyonel bir teknik kütüphanedir. 
+
+### 🚀 [Eğitim Yol Haritası (Roadmap)](Roadmap.md)
+*Temellerden Elektronik Harp taktiklerine uzanan 7 seviyeli kapsamlı müfredat.*
 
 ---
 
