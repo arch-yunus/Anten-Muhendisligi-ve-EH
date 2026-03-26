@@ -7,7 +7,18 @@
 Bu depo; geleneksel elektromanyetik teori, anten tasarımı ve bu teknolojilerin **Elektronik Harp (Electronic Warfare - EW)** sahasındaki stratejik kullanımını, **Post-AI (Yapay Zeka Sonrası)** mühendislik perspektifiyle ele alan interaktif bir teknik kitaptır. Mevcut literatürdeki statik modellerin ve geleneksel analitik çözümlerin ötesine geçerek; büyük verinin (Big Data), derin öğrenme algoritmalarının ve otonom sistemlerin klasik elektromanyetizma ile nasıl bir simyaya dönüştüğünü (Data-Driven Electromagnetics) en ince detayına kadar inceler. Bu eser, mühendislere sadece "nasıl" tasarlayacaklarını değil, yapay zekayı bir EM çözücü (solver) gibi nasıl kullanacaklarını öğretmeyi amaçlar.
 
 ### 🚀 [Eğitim Yol Haritası: 8 Seviyeli Uzmanlık](Roadmap.md)
-*Temel fiziksel temellerden başlayarak, yapay zeka tabanlı otonom anten tasarımına (Level 08) kadar uzanan, akademik titizlikle hazırlanmış 8 aşamalı kapsamlı müfredat.*
+*Temel fiziksel temellerden başlayarak, yapay zeka tabanlı otonom anten tasarımına (Level 08) kadar uzanan; her seviyenin sonunda bir "Capstone Project" içeren, akademik titizlikle hazırlanmış 8 aşamalı kapsamlı müfredat. Bu yol haritası, bir mühendisin klasik teoriyi öğrenip AI ile nasıl "insanüstü" tasarımlar yapabileceğini kademeli olarak gösterir.*
+
+---
+
+## 🏗️ Post-AI Dizayn Metodolojisi
+
+Geleneksel anten tasarım döngüsü (Analiz-Modifikasyon-Tekrar Analiz), Post-AI döneminde yerini verimli bir **"Otonom Sentez"** döngüsüne bırakmıştır. Bu proje, şu 4 adımlı metodolojiyi savunur:
+
+1.  **Gereksinim Tanımlama:** Kazanç, bant genişliği ve SLL (Yan Lob Seviyesi) kriterlerinin "Maliyet Fonksiyonu" (Cost Function) olarak matematiksel formülasyonu.
+2.  **Surrogate (Vekil) Model Eğitimi:** Tam dalga (Full-wave) simülasyonlardan alınan küçük bir veri setiyle, EM davranışını taklit eden bir Deep Neural Network eğitilmesi.
+3.  **Otonom Optimizasyon:** Genetik Algoritmalar veya Takviyeli Öğrenme (RL) ajanlarının, vekil model üzerinde saniyeler içinde milyonlarca iterasyon yaparak global optimum geometiyi bulması.
+4.  **Kritik Doğrulama:** Bulunan optimum tasarımın CST/HFSS gibi altın standart çözücülerde son bir kez doğrulanması ve üretim dosyalarının (GDSII/Gerber) oluşturulması.
 
 ---
 
@@ -55,10 +66,36 @@ Elektronik Harp taktik sahasında fark yaratan, spektral üstünlüğü belirley
 
 ### 4. 💻 [Simülasyon, Analiz ve SDR](Simulation/)
 Modern anten mühendisliği ve EH stratejileri, artık klasik hesaplamaların çok ötesinde, muazzam bir hesaplama gücü, simülasyon derinliği ve yapay zeka entegrasyonu gerektirir:
-- **Sayısal Elektromanyetik Çözücüler (Solvers):** CST Studio Suite (FIT/TLM), HFSS (FEM) ve FEKO (MoM/MLFMA) gibi platformlar üzerinden Maxwell denklemlerinin karmaşık geometriler için sayısal çözümü ve sanal prototipleme.
-- **Hesaplamalı EH (Computational EW):** MATLAB, Python ve C++ kütüphaneleri kullanarak Radar Kesit Alanı (RCS) tahmini, karıştırma-sinyal oranı ($J/S$) analizleri ve kompleks yayılım (propagation) modellerinin oluşturulması.
-- **Spektrum Hakimiyeti & SDR (Software Defined Radio):** RTL-SDR'dan USRP'ye kadar uzanan donanımlar üzerinden gerçek zamanlı spektrum analizi, otonom sinyal tespiti, otomatik modülasyon tanıma (AMC) ve GNSS/GPS karıştırma saha denemeleri.
-- **Post-AI Simülasyon Hızlandırma:** Derin sinir ağları (Deep Neural Networks) ve vekil (Surrogate) modelleme yöntemleri ile, geleneksel yöntemlerle saatler süren tam dalga (Full-wave) simülasyon süreçlerini milisaniyeler seviyesine indirgeyerek gerçek zamanlı optimizasyon sağlama.
+- **Sayısal Elektromanyetik Çözücüler (Solvers):** CST Studio Suite (FIT/TLM), HFSS (FEM) ve FEKO (MoM/MLFMA) gibi platformlar üzerinden Maxwell denklemlerinin karmaşık geometriler için sayısal çözümü.
+- **Hesaplamalı EH (Computational EW):** MATLAB, Python ve C++ kütüphaneleri kullanarak Radar Kesit Alanı (RCS) tahmini, karıştırma-sinyal oranı ($J/S$) analizleri.
+- **Post-AI Simülasyon Hızlandırma:** Derin sinir ağları ve vekil modelleme yöntemleri ile, geleneksel yöntemlerle saatler süren simülasyon süreçlerini milisaniyeler seviyesine indirgeme.
+
+---
+
+## 🛠️ İnteraktif Mühendislik Araçları (Scripts)
+
+Proje, dökümantasyonun ötesinde, doğrudan terminal üzerinden çalıştırılabilen profesyonel araçlar sunar:
+
+- **[AI Optimizer Template](Scripts/AI_Optimizer_Template.py):** Belirlenen anten parametrelerini optimize etmek için Genetic Algorithm tabanlı bir başlangıç şablonu.
+- **[Beamforming Visualizer](Scripts/Beamforming_Visualizer.py):** Phased array antenlerin hüzmeleme (beamforming) ve tarama (scanning) paternlerini anlık görselleştiren interaktif araç.
+- **[Link Budget Calculator](Scripts/Link_Budget_Calculator.py):** Friis denklemi bazlı, yol kaybı ve gürültü tabanı hesaplayan profesyonel link analiz aracı.
+- **[Surrogate Dataset Generator](Scripts/Surrogate_Dataset_Generator.py):** AI modellerini eğitmek için sentetik EM verisi üreten simülasyon köprüsü.
+
+---
+
+## 📐 Matematiksel Temeller ve Hızlı Referans
+
+| Kavram | Formülasyon / İlke | EH Karşılığı |
+| :--- | :--- | :--- |
+| **Maxwell-Ampere** | $\nabla \times \mathbf{H} = \mathbf{J} + \epsilon \frac{\partial \mathbf{E}}{\partial t}$ | Sinyal Yayılımı |
+| **Friis Denklemi** | $P_r = P_t G_t G_r (\frac{\lambda}{4\pi R})^2$ | Jamming Etki Mesafesi |
+| **Radar Denklemi** | $P_r = \frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 R^4}$ | Tespit Menzili |
+| **Dizi Faktörü** | $AF = \sum e^{j(nkd\cos\theta + \beta)}$ | Hüzme Yönlendirme |
+
+---
+
+## 📜 Lisans ve Katkı
+Bu proje **MIT Lisansı** ile korunmaktadır. Akademik veya profesyonel katkı sağlamak isteyen araştırmacılar [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyebilirler.
 
 ---
 
