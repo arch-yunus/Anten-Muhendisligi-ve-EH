@@ -23,5 +23,11 @@ Bu dosya, tüm deponun tematik, seviye bazlı ve operasyonel haritasıdır. Bilg
 - **Üretim:** [Design to Fab Guide](Production/Design_to_Fab_Guide.md).
 - **Donanım:** [SDR Integration](Hardware/SDR_Integration_Guide.md).
 
+## 🌌 Transcendence: Ufkun Ötesi (Advanced Physics)
+- **Geleceğin Malzemeleri:** [Metamaterials & RIS](Theory/Metamaterials_and_RIS.md).
+- **Kuantum Sınırı:** [Quantum Electromagnetics](Theory/Quantum_Electromagnetics.md).
+- **Biyo & Uzay:** [Bio-Electromagnetics](Applications/Bio_Electromagnetics.md), [Deep Space Comms](Applications/Deep_Space_Comms.md).
+- **Egzotik Antenler:** [Plasma Antennas](Theory/Plasma_Antennas.md).
+
 ---
 ✅ *Bu külliyat, bilgiyi pasif bir döküman olmaktan çıkarıp aktif bir mühendislik ekosistemine dönüştürür.*
