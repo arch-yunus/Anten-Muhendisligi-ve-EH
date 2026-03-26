@@ -94,11 +94,6 @@ Proje, dökümantasyonun ötesinde, doğrudan terminal üzerinden çalıştırı
 
 ---
 
-## 📜 Lisans ve Katkı
-Bu proje **MIT Lisansı** ile korunmaktadır. Akademik veya profesyonel katkı sağlamak isteyen araştırmacılar [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyebilirler.
-
----
-
 ## 🛠️ Elektronik Harp Operasyonel Kabiliyetleri
 
 Repo içerisinde, bir modern Elektronik Harp sisteminin kalbini ve işletim sistemini oluşturan şu üç ana fonksiyonel alan için ileri seviye akademik teorik notlar, matematiksel modeller ve doğrulanmış Python algoritmaları yer almaktadır:
@@ -109,9 +104,47 @@ Repo içerisinde, bir modern Elektronik Harp sisteminin kalbini ve işletim sist
 
 ---
 
-## 📜 Lisans ve Katkı
-Bu proje **MIT Lisansı** ile korunmaktadır. Akademik veya profesyonel katkı sağlamak isteyen araştırmacılar [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyebilirler.
+## 🌐 Spektrum Egemenliği ve Yönetişim (Spectrum Sovereignty)
+
+Elektromanyetik spektrum, modern devletlerin ve orduların en kritik stratejik varlığıdır. Bu projede ele alınan teknikler, sadece mühendislik başarısı için değil, **Spektrum Hakimiyeti** kurmak için tasarlanmıştır:
+- **Spektrum Diplomasisi:** ITU (International Telecommunication Union) standartları ve frekans tahsis süreçlerinin teknik arka planı.
+- **Spektrum Polisi (Spectrum Policing):** İzinsiz yayınların (rogue signals) tespiti ve otonom olarak etkisiz hale getirilmesi.
+- **Egemen Frekans Bantları:** Kritik altyapıların korunması için "EM Karantina" bölgelerinin oluşturulması.
 
 ---
+
+## 🦾 İnsan-AI Simbiyozu: Yeni Nesil RF Mühendisi
+
+Post-AI döneminde mühendis, bir "hesap makinelerinden" ziyade bir **"Stratejik Karar Verici"**dir. Bu kitap, mühendisin AI ile olan yeni çalışma modelini şu prensiplerle tanımlar:
+- **Sezgisel Tasarım (Intuitive Design):** AI geometrik optimizasyon yaparken, mühendisin fiziksel "neden" sorusuna cevap araması.
+- **Model Güvenirliği (Model Trust):** AI tarafından önerilen tasarımların "açıklanabilir AI" (XAI) teknikleriyle doğrulanması.
+- **Hata Toleransı:** AI modellerindeki potansiyel biasların fiziksel yasalar (Maxwell) ile denetlenmesi.
+
+---
+
+## 🏛️ Küresel Standartlar ve Uyumluluk
+
+Tüm dökümantasyon ve örnek tasarımlar, endüstriyel ve askeri standartlara uyum gözetilerek hazırlanmıştır:
+- **IEEE 802.11 / 5G NR:** Haberleşme antenleri için ticari uyumluluk.
+- **MIL-STD-461G:** Elektromanyetik arayüz (EMI) ve uyumluluk (EMC) kriterleri.
+- **NATO STANAG:** Müşterek EH operasyonları ve veri formatı standartları.
+
+---
+
+## 📜 Katkı Kademeleri (Contribution Tiers)
+
+Bu proje, meritokratik bir gelişim modelini benimser:
+1.  **Bakır (Copper):** Typo düzeltme ve temel dökümantasyon katkıları.
+2.  **Gümüş (Silver):** Yeni anten türleri ve temel Python script eklemeleri.
+3.  **Altın (Gold):** İleri seviye AI modelleri (Surrogate/PINN) ve EH strateji dökümanları.
+4.  **Platin (Sovereign):** Çekirdek müfredat tasarımı ve sistem mimarisi iyileştirmeleri.
+
+---
+
+## 🛡️ Lisans ve İletişim
+
+Bu proje **MIT Lisansı** ile korunmaktadır. Akademik veya profesyonel katkı sağlamak isteyen araştırmacılar [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyebilirler.
+
 **Yazar:** [Bahattin Yunus Çetin](https://github.com/arch-yunus)  
-*IT Architect & RF Systems Researcher*
+*IT Architect & RF Systems Researcher*  
+📡 *Post-AI Anten Mühendisliği Külliyatı - v2.0 Sovereign Edition*
