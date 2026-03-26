@@ -1,11 +1,11 @@
-# Taktiksel Uygulamalar ve Anten Tasarımları ⚔️🛰️
+# Uygulama ve Elektronik Harp Modülü (Applications) 🛡️🚀
 
-Bu dizin, gerçek dünya problemlerine ve Elektronik Harp (EH) sahasındaki kritik donanım mimarilerine odaklanır.
+Stratejik anten tasarımları ve EH taktiklerinin operasyonel dökümantasyonu.
 
-## ⚔️ Operasyonel Katalog
--   **Microstrip Patch**: Düşük profilli, PCB tabanlı antenler.
--   **Phased Arrays**: Elektronik hüzme yönlendirme ve AESA.
--   **EW Taktikleri**: DRFM, Jamming, LPI/LPD ve Stealth.
+## 📂 İçerik Yapısı
+-   **Kritik Tasarımlar:** [Microstrip Patch](Microstrip_Patch.md), [Horn Antennas](Horn_Antennas.md), [Satellite Dishes](Satellite_Antennas.md).
+-   **EH Taktikleri:** [Jamming Techniques](Jamming_Techniques.md), [Direction Finding (DF)](DF_Antennas.md), [LPI/LPD Signals](LPI_LPD_Signals.md).
+-   **İleri Sistemler:** [Phased Arrays](Array_Synthesis.md), [Massive MIMO 5G/6G](MIMO_5G_6G.md), [Cognitive Case Study](Case_Study_Cognitive_Patch.md).
 
 ---
-*Anten, bir EH sisteminin en keskin kılıcıdır.*
+⚔️ *Spektrumun hakimi, sahanın hakimidir.*

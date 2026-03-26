@@ -1,11 +1,12 @@
-# İleri Seviye Akademik Teori Dizini 📖⚖️
+# Elektromanyetik Teori Modülü (Theory) 📖🐚
 
-Bu dizin, elektromanyetik spektrumun fiziksel yasalarını ve Post-AI perspektifiyle yeniden yorumlanan temel denklemleri içerir.
+Bu dizin, anten mühendisliğinin sarsılmaz temellerini ve bu temellerin modern AI dünyasına geçişini içerir.
 
-## 🔬 İçerik Rehberi
--   **Maxwell Denklemleri**: Diferansiyel ve integral formda dalga yayılımı.
--   **Radyasyon Mekanizması**: Akımdan uzak alana geçiş süreci.
--   **Geleceğin EM Teknolojileri**: 6G, THz ve Kuantum sensörler.
+## 📂 İçerik Yapısı
+1.  **[Maxwell & Teori](Phasors_and_Fields.md):** Zamanla değişen alanların temelleri.
+2.  **[Vektör Potansiyelleri](Vector_Potentials.md):** Işıma hesaplamalarının matematiksel araçları.
+3.  **[Işıma Fiziği](Radiation.md):** Yakın ve uzak alan bileşenlerinin atomik analizi.
+4.  **[Geleceğin Spektrumu](Future_of_EM.md):** 6G ve Kuantum anten vizyonu.
 
 ---
-*Mühendisliğin zirvesi, teorinin mükemmel anlaşılmasıyla başlar.*
+🚀 *Teori güçtür; uygulama ise o gücün kullanılmasıdır.*
