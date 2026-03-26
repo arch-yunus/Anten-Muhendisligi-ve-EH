@@ -8,18 +8,24 @@ Doğrudan $\mathbf{E}$ ve $\mathbf{H}$ alanlarını çözmek yerine yardımcı v
 - **Manyetik Vektör Potansiyeli ($\mathbf{A}$):** Elektrik akım kaynakları ($\mathbf{J}$) tarafından oluşturulur.
 - **Elektrik Vektör Potansiyeli ($\mathbf{F}$):** Manyetik akım kaynakları ($\mathbf{M}$) (Magnetik dipoller veya yarık antenler) tarafından oluşturulur.
 
-## 2. Hertzian Dipol (Sonsuz Küçük Dipol)
+## 2. Alan Bileşenlerinin Ayrışımı ($1/r$ vs $1/r^n$)
 
-Fiziksel uzunluğu dalga boyundan çok küçük olan ($l \ll \lambda$) bir dipolün Far-field (Uzak Alan) ışıması şu bileşenleri içerir:
+Bir antenin oluşturduğu toplam elektromanyetik alan, kaynaktan olan uzaklığa ($r$) göre üç ana bölgeye ayrılır:
+- **Reaktif Yakın Alan ($1/r^3$ baskın):** Enerjinin antende hapsolduğu, ışıma yapmayan bölge.
+- **Radyasyon Yakın Alan (Fresnel - $1/r^2$ baskın):** Işıma örüntüsünün henüz oluşmadığı geçiş bölgesi.
+- **Uzak Alan (Fraunhofer - $1/r$ baskın):** Gerçek "radyasyon" buradadır. Alan şiddeti $1/r$ ile azalırken, güç yoğunluğu $1/r^2$ ile azalır.
 
+$$E_{total} \approx \underbrace{\frac{C_1}{r^3}}_{\text{Statik}} + \underbrace{\frac{C_2}{r^2}}_{\text{İndüksiyon}} + \underbrace{\frac{C_3}{r}}_{\text{Işıma}}$$
+
+## 3. Hertzian Dipol ve Formülasyon
+
+Sonsuz küçük dipol ($l \ll \lambda$) en temel ışıma birimidir:
 $$E_\theta = j\eta \frac{k I_0 l e^{-jkr}}{4\pi r} \sin \theta$$
-$$H_\phi = j \frac{k I_0 l e^{-jkr}}{4\pi r} \sin \theta$$
+Bu denklemde $e^{-jkr}$ terimi faz kaymasını, $1/r$ terimi ise küresel dalga yayılımını temsil eder.
 
-Bu denklemler bize ışımanın $\sin \theta$ ile orantılı olduğunu, yani dipolün ekseni yönünde hiç ışıma yapmadığını gösterir.
+## 4. Huygens-Fresnel ve Eşdeğerlik İlkesi (Equivalence Principle)
 
-## 3. Huygens-Fresnel İlkesi
-
-Bir antenin önündeki sanal bir yüzeydeki alan dağılımı biliniyorsa, bu yüzey her biri birer küresel dalga kaynağı olan sonsuz küçük kaynakların toplamı olarak düşünülebilir. ---
+Karmaşık bir antenin (Örn: Reflektör) ışımasını hesaplamak için "yüzey akımları" yerine "aperture alanları" kullanılır. Jefimenko denklemleri, zamanla değişen yük ve akımların oluşturduğu alanları nedensellik (retarded time) ilkesiyle açıklar.
 
 ## 🤖 Post-AI Perspektifi: Işıma ve Veri Odaklı Tasarım
 
