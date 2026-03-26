@@ -1,17 +1,11 @@
-# Anten Mühendisliği Hesaplama Araçları (Scripts) 🛠️
+# Post-AI Anten Mühendisliği Script Kütüphanesi 💻📡⚡
 
-Bu dizin, teorik hesaplamaları otomatize etmek ve anten tasarımlarını doğrulamak için geliştirilen Python scriptlerini içerir.
+Bu dizin, klasik elektromanyetik problemlerini çözen ve yapay zeka entegrasyonu sağlayan Python tabanlı interaktif araçları içerir.
 
-## Mevcut Araçlar
+## 🛠️ Araç Seti (Toolbox)
+-   **Görselleştiriciler**: Phased Array hüzmeleme ve patern analiz araçları.
+-   **Hesaplayıcılar**: Link bütçesi ve Friis denklemi tabanlı operasyonel analizler.
+-   **AI Destekli Araçlar**: Surrogate veri üreticileri ve Genetik Algoritma optimizasyon şablonları.
 
-- [x] **`antenna_tools.py`:** Temel anten hesaplamaları (Dipol boyutlandırma, Friis link bütçesi, VSWR dönüşümleri).
-- [ ] **`pattern_viewer.py`:** Işıma paternlerini Matplotlib ile görselleştirme (Yakında).
-
-## Kurulum ve Kullanım
-
-Scriptler Python 3.8+ ve `numpy` kütüphanesi gerektirir.
-
-```bash
-pip install numpy
-python antenna_tools.py
-```
+---
+*Kod, teorinin yaşayan ve nefes alan halidir.*
