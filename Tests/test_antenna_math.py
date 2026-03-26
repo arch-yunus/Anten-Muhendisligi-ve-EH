@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-from Scripts.antenna_tools import calculate_wavelength, calculate_gain_from_vswr
+from Scripts.antenna_tools import calculate_wavelength, calculate_return_loss
 
 def test_wavelength_calculation():
     # 300 MHz -> 1 metre
@@ -10,9 +10,9 @@ def test_wavelength_calculation():
 
 def test_gain_vswr_logic():
     # VSWR = 1 ise kayıp 0 olmalı
-    assert calculate_gain_from_vswr(1.0) == 0.0
-    # VSWR = infinity ise kayıp çok yüksek olmalı
-    assert calculate_gain_from_vswr(100.0) < -20.0
+    assert calculate_return_loss(1.0) == 0.0
+    # VSWR = 100 ise kayıp yüksek olmalı (yaklaşık 40 dB)
+    assert calculate_return_loss(100.0) > 10.0
 
 def test_array_factor_shapes():
     # Basit bir dizi faktörü testi için numpy araçlarını kullanabiliriz
