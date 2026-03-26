@@ -17,3 +17,12 @@ Bu oran, özellikle uydu haberleşmesi ve zayıf sinyal kestirimi (ES) yapan sis
 ## 3. Poincare Küresi
 
 Anten polarizasyon durumlarını (Doğrusal, Dairesel, Eliptik) görselleştirmek ve analiz etmek için kullanılan küresel bir representasyondur. Kürenin kutupları dairesel polarizasyonları, ekvatoru ise doğrusal polarizasyonları temsil eder.
+
+---
+
+## 🤖 Post-AI Perspektifi: Metriklerin "Maliyet Fonksiyonu" (Cost Function) Olarak Kullanımı
+
+Bir AI optimizasyon döngüsünde (GA, PSO, RL), yukarıdaki her metrik birer ceza (penalty) veya ödül (reward) bileşenine dönüşür:
+- **VSWR Hedefleme:** AI, S11 değerini belirli bir eşiğin altında tutmak için geometriyi büker.
+- **G/T Optimizasyonu:** Özellikle düşük gürültülü (LNA) sistemlerde AI, anten kazancı ile sistem sıcaklığı arasındaki en iyi dengeyi (Pareto Front) bulur.
+- **Polarizasyon Çevikliği:** AI, Poincare küresi üzerindeki herhangi bir noktaya milisaniyeler içinde uyum sağlayacak dizi katsayılarını hesaplar.
