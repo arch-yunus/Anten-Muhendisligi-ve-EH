@@ -19,4 +19,12 @@ Bu denklemler bize ışımanın $\sin \theta$ ile orantılı olduğunu, yani dip
 
 ## 3. Huygens-Fresnel İlkesi
 
-Bir antenin önündeki sanal bir yüzeydeki alan dağılımı biliniyorsa, bu yüzey her biri birer küresel dalga kaynağı olan sonsuz küçük kaynakların toplamı olarak düşünülebilir. Bu ilke, horn ve reflektör antenlerin analizinde temel teşkil eder.
+Bir antenin önündeki sanal bir yüzeydeki alan dağılımı biliniyorsa, bu yüzey her biri birer küresel dalga kaynağı olan sonsuz küçük kaynakların toplamı olarak düşünülebilir. ---
+
+## 🤖 Post-AI Perspektifi: Işıma ve Veri Odaklı Tasarım
+
+Klasik teoride her anten türü için ayrı bir ışıma integrali (Radiation Integral) çözmemiz gerekir. 
+
+**Post-AI yaklaşımında;**
+- **Sinyalden Geometriye (Inverse Design):** İstenen ışıma örüntüsü (patern) bir "hedef fonksiyonu" olarak verilir ve bir AI ajanı bu paterni sağlayan en uygun akım dağılımını veya fiziksel yapıyı otonom olarak bulur.
+- **Dizi Sentezi (Array Synthesis):** Karmaşık hüzme şekillendirme (beam shaping) işlemleri, artık klasik Taylor veya Chebyshev yerine, çok daha esnek olan Derin Sinir Ağları ile optimize edilmektedir.

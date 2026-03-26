@@ -35,6 +35,12 @@ Bu yol haritası, bir araştırmacının veya mühendisin temel elektromanyetik 
 - Zaman Tanım Kümesinde Sonlu Farklar (FDTD)
 - Sonlu Elemanlar Yöntemi (FEM)
 
+### [Seviye 08: Post-AI Anten Mühendisliği (AI-Driven Design)](AI_and_ML/Introduction_to_AI_in_EM.md)
+- [EM ve Yapay Zeka Entegrasyonu: Giriş](AI_and_ML/Introduction_to_AI_in_EM.md)
+- [Surrogate Modeling: Simülasyon Hızlandırma](AI_and_ML/Surrogate_Modeling.md)
+- [Gelişmiş Optimizasyon (GA, PSO, RL)](AI_and_ML/Optimization_Algorithms.md)
+- [Bilişsel Hüzmeleme ve Derin Öğrenme](AI_and_ML/Cognitive_Beamforming.md)
+
 ---
 
 ## 🛠️ Araçlar ve Laboratuvar

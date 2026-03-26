@@ -1,13 +1,13 @@
-# Anten Mühendisliği ve Elektronik Harp (EH) Araştırma Arşivi 📡⚡
+# Anten Mühendisliği: Post-AI Dönemi Yazılı Eseri 📡🤖⚡
 
-![Banner](assets/banner.png)
+![Post-AI Banner](assets/banner.png)
 
-> **"Elektromanyetik spektrumda üstünlük, modern harp sahasının anahtarıdır."**
+> **"Klasik elektromanyetizmanın disiplini, yapay zekanın hızı ve öngörüsüyle birleştiğinde yeni nesil mühendislik başlar."**
 
-Bu depo; elektromanyetik teori, anten tasarımı ve bu teknolojilerin **Elektronik Harp (Electronic Warfare - EW)** sahasındaki stratejik kullanım senaryolarını kapsayan, akademik düzeyde yapılandırılmış profesyonel bir teknik kütüphanedir. 
+Bu depo; geleneksel elektromanyetik teori, anten tasarımı ve bu teknolojilerin **Elektronik Harp (Electronic Warfare - EW)** sahasındaki kullanımını, **Post-AI (Yapay Zeka Sonrası)** mühendislik perspektifiyle ele alan interaktif bir teknik kitaptır. 
 
-### 🚀 [Eğitim Yol Haritası (Roadmap)](Roadmap.md)
-*Temellerden Elektronik Harp taktiklerine uzanan 7 seviyeli kapsamlı müfredat.*
+### 🚀 [Eğitim Yol Haritası: 8 Seviyeli Uzmanlık](Roadmap.md)
+*Temellerden AI tabanlı otonom anten tasarımına uzanan kapsamlı müfredat.*
 
 ---
 
