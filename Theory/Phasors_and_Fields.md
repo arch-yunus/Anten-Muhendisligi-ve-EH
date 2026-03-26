@@ -19,5 +19,12 @@ Zaman türevleri ($ \partial / \partial t $) yerine $j\omega$ operatorü gelir:
 
 Elektromanyetik enerjinin birim alandan geçen miktarını (güç yoğunluğu) temsil eder. Fazör domaininde ortalama güç yoğunluğu ($\mathbf{W}_{av}$):
 $$\mathbf{W}_{av} = \frac{1}{2} \text{Re}\{ \mathbf{E} \times \mathbf{H}^* \}$$
-Antenlerde ışıma direnci ve kazanç hesaplamaları, bu vektörün anteni çevreleyen sanal bir yüzey üzerinden entegre edilmesiyle bulunur.
- health
+---
+
+## 🤖 Post-AI Perspektifi: Zaman ve Frekans Arası Veri Köprüsü
+
+Geleneksel fazör analizi, sadece tek frekanslı (harmonik) sistemlerde kolaylık sağlar. 
+
+**Post-AI mühendisliğinde;**
+- **Sinyalden Spektruma RNN/LSTM:** Zaman tanım kümesindeki (Time-Domain) ham sinyaller, tekrarlayan sinir ağları (RNN) ile işlenerek fazör domainine geçiş yapmadan doğrudan karakterize edilebilir.
+- **DFT Hızlandırma:** Gömülü sistemlerde (SDR/FPGA), AI tabanlı spektrum kestirimi (Spectrum Estimation), klasik FFT'den çok daha düşük gürültü ve yüksek çözünürlük sunarak fazör analizini gerçeğe yaklaştırır.

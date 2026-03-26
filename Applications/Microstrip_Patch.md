@@ -19,5 +19,12 @@ $$L = \frac{c}{2 f_r \sqrt{\epsilon_{reff}}} - 2 \Delta L$$
 -   **Artılar:** Seri üretim kolaylığı, konformal (yüzeye uyumlu) yapı, dizi antenlere (array) uygunluk.
 -   **Eksiler:** Dar bant genişliği (genellikle %1-5), düşük verimlilik, düşük güç taşıma kapasitesi.
 
+## 🤖 Post-AI Perspektifi: Yama Antenlerde Tersiz Tasarım (Inverse Design)
+
+Geleneksel tasarım süreci (Analiz), boyutları verip performansı görmektir. Post-AI süreci ise (Sentez), istenen performansı verip boyutları bulmaktır.
+
+- **Otomatik Geometri Üretimi:** Genetik algoritmalar ve GAN'lar, klasik dikdörtgen formun ötesine geçerek, ultra geniş bant sağlayan "fraktal" veya "serbest form" (free-form) yama şekilleri üretebilir.
+- **Substrat Optimizasyonu:** AI, farklı dielektrik sabitli malzemelerin hibrit kullanımını optimize ederek antenin hem boyutunu küçültür hem de verimliliğini artırır.
+
 ---
 *İpucu: Bant genişliğini artırmak için substrat kalınlığı ($h$) artırılabilir veya parazitik yamalar kullanılabilir.*

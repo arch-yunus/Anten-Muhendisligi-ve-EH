@@ -16,4 +16,12 @@ $$\mathbf{A} = \frac{\mu}{4\pi} \iiint_V \mathbf{J} \frac{e^{-jkR}}{R} dV'$$
 
 Anten analizlerinde genellikle sinüzoidal (harmonik) değişimler incelenir. Bu durumda zaman domainindeki $\mathcal{E}(x,y,z,t)$ alanı, fazör domainindeki $\mathbf{E}(x,y,z)$ ile temsil edilir:
 $$\mathcal{E}(x,y,z,t) = \text{Re}\{ \mathbf{E}(x,y,z) e^{j\omega t} \}$$
-Bu dönüşüm, Maxwell denklemlerindeki türevleri ($\partial / \partial t$) basit çarpanlara ($j\omega$) dönüştürerek analizi kolaylaştırır.
+---
+
+## 🤖 Post-AI Perspektifi: Potansiyelleri Veriden Öğrenmek
+
+Geleneksel olarak $\mathbf{A}$ potansiyelini bulmak için akım yoğunluğu ($\mathbf{J}$) üzerinden üç katlı integral çözülür.
+
+**Post-AI yaklaşımında;**
+- **Diferansiyellenebilir Işıma Integralleri:** Işıma integrali bir "sinir ağı katmanı" gibi modellenerek, uzak alan (far-field) verisinden kaynak akım dağılımı ($\mathbf{J}$) otonom olarak kestirilebilir (**Inverse Source Problem**).
+- **Green Fonksiyonu Yakınsaması:** Karmaşık ortamlarda Green fonksiyonunu analitik olarak bulmak imkansızdır. AI, bu fonksiyonu bir vekil model (surrogate) olarak öğrenip potansiyel hesaplamalarını gerçek zamanlı hale getirir.
