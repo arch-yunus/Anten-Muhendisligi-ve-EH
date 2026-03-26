@@ -8,7 +8,7 @@ Elektronik Harp'te en kritik görevlerden biri, tehdit sinyalinin konumunu belir
 -   **Log-Periodic Antenler:** Çok geniş frekans bantlarında (Örn: 2-18 GHz) sabit kazanç sağladıkları için spektrum izlemede vazgeçilmezdir.
 -   **İnterferometrik Diziler:** Gelen dalganın iki veya daha fazla anten arasındaki faz farkını ölçerek son derece hassas yön kestirimi yaparlar.
 
-## Uygulama Alanları
--   **ELINT:** Düşman radar parametrelerinin analizi.
--   **COMINT:** Haberleşme sinyallerinin dinlenmesi ve yer tespiti.
--   **LPI Sinyal Takibi:** Düşük tespit edilme olasılığına sahip sinyallerin (spread spectrum) geniş bantlı antenlerle yakalanması.
+## 🤖 Post-AI Perspektifi: Akıllı Yön Kestirimi (DoA)
+
+- **AI-Driven DoA Estimation:** Kaynak tespiti için kullanılan klasik MUSIC veya ESPRIT algoritmaları, düşük sinyal-gürültü oranlarında (SNR) başarısız olabilir. Derin öğrenme tabanlı yön kestiriciler, gürültülü ortamlarda bile sinyal kaynağını derecenin onda biri hassasiyetle bulabilir.
+- **Spiral Antenlerde Patern Düzeltme:** Spiral antenlerin frekansa bağlı faz kaymaları, AI tarafından "kalibrasyon haritası" olarak öğrenilir ve ölçüm hataları yazılımsal olarak otonom düzeltilir.
