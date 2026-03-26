@@ -23,3 +23,13 @@ Karıştırmaya karşı koruma yöntemleri:
 -   **Frequency Hopping:** Sürekli frekans değiştirerek yakalanmayı zorlaştırmak.
 -   **Sidelobe Cancellation:** Karıştırma sinyalini yan loblardan değil, sadece ana hüzmeden kabul etmek.
 -   **Pulse Compression:** Karmaşık sinyal modülasyonları ile gürültüden ayrışmak.
+
+---
+
+## 🤖 Post-AI Perspektifi: Bilişsel Elektronik Harp (Cognitive EW)
+
+Geleneksel jamming sistemleri, önceden tanımlanmış tehdit kütüphanelerine (Threat Library) dayanır. Ancak modern LPI radarlar sürekli parametre değiştirdiği için bu kütüphaneler yetersiz kalır.
+
+- **Otonom Tehdit Analizi:** AI, daha önce hiç karşılaşılmamış bir radar sinyalini (Zero-day threat) anlık olarak analiz eder ve onun zayıf noktasını tespit eder.
+- **Akıllı Karıştırma Stratejisi:** RL ajanı, hangi jamming tekniğinin o anki radar takibini daha etkili bozduğunu milisaniyeler içinde öğrenir.
+- **Düşük Enerji Tüketimi:** AI, tüm bandı boğmak yerine sadece radarın "dinlediği" pencereleri hedefleyerek enerji verimliliğini artırır.
