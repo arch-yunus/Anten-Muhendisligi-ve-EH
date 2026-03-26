@@ -131,6 +131,16 @@ Tüm dökümantasyon ve örnek tasarımlar, endüstriyel ve askeri standartlara 
 
 ---
 
+## 🏗️ Kurulum ve Ortam Kurulumu (Installation)
+
+Sistemi otonom olarak çalıştırmak ve "Living Laboratory" araçlarından yararlanmak için:
+
+1.  **Repoyu Klonlayın:** `git clone https://github.com/arch-yunus/Anten-Muhendisligi-ve-EH.git`
+2.  **Bağımlılıkları Yükleyin:** `pip install -r requirements.txt`
+3.  **Paket Olarak Kurun (Geliştirici Modu):** `pip install -e .`
+
+---
+
 ## 📜 Katkı Kademeleri (Contribution Tiers)
 
 Bu proje, meritokratik bir gelişim modelini benimser:

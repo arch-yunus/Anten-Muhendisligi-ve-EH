@@ -17,12 +17,28 @@ def calculate_friis_link_budget(pt, gt, gr, freq_mhz, distance_km):
     received_power = pt + gt + gr - free_space_loss
     return received_power, free_space_loss
 
+def calculate_wavelength(frequency_hz):
+    """
+    Işığın boşluktaki hızı c ~ 3e8 m/s üzerinden dalga boyu hesabı.
+    """
+    c = 3e8
+    return c / frequency_hz
+
 def vswr_to_reflection_coeff(vswr):
     """
     VSWR'dan Yansıma Katsayısı (Gamma) hesaplama
     """
+    if vswr < 1: return 0
     gamma = (vswr - 1) / (vswr + 1)
     return gamma
+
+def calculate_return_loss(vswr):
+    """
+    VSWR üzerinden Geri Dönüş Kaybı (Return Loss) dB cinsinden.
+    """
+    gamma = vswr_to_reflection_coeff(vswr)
+    if gamma <= 0: return 0.0
+    return -20 * np.log10(gamma)
 
 if __name__ == "__main__":
     print("--- Anten Mühendisliği Hesaplama Aracı ---")
