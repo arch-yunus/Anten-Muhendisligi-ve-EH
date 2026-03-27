@@ -7,7 +7,21 @@
 Bu depo; geleneksel elektromanyetik teori, anten tasarımı ve bu teknolojilerin **Elektronik Harp (Electronic Warfare - EW)** sahasındaki stratejik kullanımını, **Post-AI (Yapay Zeka Sonrası)** mühendislik perspektifiyle ele alan interaktif bir teknik kitaptır. Mevcut literatürdeki statik modellerin ve geleneksel analitik çözümlerin ötesine geçerek; büyük verinin (Big Data), derin öğrenme algoritmalarının ve otonom sistemlerin klasik elektromanyetizma ile nasıl bir simyaya dönüştüğünü (Data-Driven Electromagnetics) en ince detayına kadar inceler. Bu eser, mühendislere sadece "nasıl" tasarlayacaklarını değil, yapay zekayı bir EM çözücü (solver) gibi nasıl kullanacaklarını öğretmeyi amaçlar.
 
 ### 🚀 [Eğitim Yol Haritası: 8 Seviyeli Uzmanlık](Roadmap.md)
-*Temel fiziksel temellerden başlayarak, yapay zeka tabanlı otonom anten tasarımına (Level 08) kadar uzanan; her seviyenin sonunda bir "Capstone Project" içeren, akademik titizlikle hazırlanmış 8 aşamalı kapsamlı müfredat. Bu yol haritası, bir mühendisin klasik teoriyi öğrenip AI ile nasıl "insanüstü" tasarımlar yapabileceğini kademeli olarak gösterir.*
+*Temel fiziksel temellerden başlayarak, yapay zeka tabanlı otonom anten tasarımına (Level 08) kadar uzanan; her seviyenin sonunda bir "Capstone Project" içeren, akademik titizlikle hazırlanmış 8 aşamalı kapsamlı müfredat.*
+
+```mermaid
+graph TD
+    L1[Level 01: EM Foundations] --> L2[Level 02: Radiation Theory]
+    L2 --> L3[Level 03: Performance Metrics]
+    L3 --> L4[Level 04: Antenna Catalog]
+    L4 --> L5[Level 05: Arrays & Beamforming]
+    L5 --> L6[Level 06: EW Tactics]
+    L6 --> L7[Level 07: Computational EM]
+    L7 --> L8[Level 08: Post-AI Design]
+    
+    style L1 fill:#1a1a1a,stroke:#00d4ff,stroke-width:2px,color:#fff
+    style L8 fill:#1a1a1a,stroke:#ffcc00,stroke-width:4px,color:#fff
+```
 
 ---
 

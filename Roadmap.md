@@ -31,15 +31,14 @@ Bu yol haritası, bir araştırmacının veya mühendisin temel elektromanyetik 
 - [Stealth (Görünmezlik) ve RCS Azaltımı](Applications/RCS_Reduction.md)
 
 ### [Seviye 07: Hesaplamalı Yöntemler (Computational EM)](Simulation/Numerical_Methods.md)
-- Moment Metodu (MoM)
-- Zaman Tanım Kümesinde Sonlu Farklar (FDTD)
-- Sonlu Elemanlar Yöntemi (FEM)
+- [Nümerik Analiz Esasları](Simulation/Numerical_Methods.md)
+- Moment Metodu (MoM) & FDTD & FEM
 
 ### [Seviye 08: Post-AI Anten Mühendisliği (AI-Driven Design)](AI_and_ML/Introduction_to_AI_in_EM.md)
 - [EM ve Yapay Zeka Entegrasyonu: Giriş](AI_and_ML/Introduction_to_AI_in_EM.md)
+- [Physics-Informed Neural Networks (PINNs)](AI_and_ML/Physics_Informed_Neural_Networks.md)
 - [Surrogate Modeling: Simülasyon Hızlandırma](AI_and_ML/Surrogate_Modeling.md)
 - [Gelişmiş Optimizasyon (GA, PSO, RL)](AI_and_ML/Optimization_Algorithms.md)
-- [Bilişsel Hüzmeleme ve Derin Öğrenme](AI_and_ML/Cognitive_Beamforming.md)
 
 ---
 

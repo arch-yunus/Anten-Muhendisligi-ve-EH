@@ -14,11 +14,19 @@ def calculate_link_budget(freq_ghz, distance_km, pt_dbm, gt_dbi, gr_dbi, l_cable
     # FSPL (dB) = 20log10(d) + 20log10(f) + 92.45
     fspl = 20 * np.log10(distance_km) + 20 * np.log10(freq_ghz) + 92.45
     
-    # 2. EIRP (Equivalent Isotropic Radiated Power)
+    # 2. Atmosferik Zayıflama (Atmospheric Attenuation) - ITU-R P.676 Basit Model
+    # Oksijen ve su buharı emilimi (özellikle 22GHz ve 60GHz'de artar)
+    gamma_atmos = 0.01 # dB/km @ 10 GHz (ortalama deniz seviyesi)
+    if freq_ghz > 20 and freq_ghz < 25: gamma_atmos = 0.2
+    if freq_ghz > 55 and freq_ghz < 65: gamma_atmos = 15.0 # Oksijen Rezonansı
+    
+    l_atmos = gamma_atmos * distance_km
+    
+    # 3. EIRP (Equivalent Isotropic Radiated Power)
     eirp = pt_dbm + gt_dbi - l_cable_db
     
-    # 3. Alınan Güç (Pr)
-    pr_dbm = eirp - fspl + gr_dbi
+    # 4. Alınan Güç (Pr)
+    pr_dbm = eirp - fspl - l_atmos + gr_dbi
     
     # 4. Gürültü Tabanı (Noise Floor) - Oda sıcaklığında 1 MHz bant genişliği için
     # Pn = -174 dBm/Hz + 10log10(BW) + NF
@@ -31,6 +39,7 @@ def calculate_link_budget(freq_ghz, distance_km, pt_dbm, gt_dbi, gr_dbi, l_cable
     print("-" * 30)
     print(f"📡 EIRP: {eirp:.2f} dBm")
     print(f"📉 Path Loss (FSPL): {fspl:.2f} dB")
+    print(f"☁️ Atmos zayıflama: {l_atmos:.2f} dB")
     print(f"📥 Received Power: {pr_dbm:.2f} dBm")
     print(f"🔊 Noise Floor: {noise_floor:.2f} dBm")
     print(f"✅ Sinyal Gürültü Oranı (SNR): {snr:.2f} dB")
